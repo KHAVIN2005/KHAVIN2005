@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @KHAVIN2005
 - 👀 I’m interested in Coding
 - 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on Full-stack 
+- 💞️ I’m looking to collaborate on developing python
 - 📫 How to reach me @KHAVIN2005
 - 😄 Pronouns: Khavin
 - ⚡ Fun fact:  Monty Python circus
