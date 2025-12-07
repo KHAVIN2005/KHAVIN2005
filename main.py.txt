@@ -1,0 +1,48 @@
+import paho.mqtt.client as mqtt
+import time
+import json
+
+# -----------------------------
+# Student Details (Mandatory)
+# -----------------------------
+student_name = "Khavin"
+unique_id = "42130226"
+topic = "home/khavin-2025/sensor"   # Unique MQTT topic
+
+# MQTT Broker Details
+broker = "localhost"
+port = 1883
+
+client = mqtt.Client()
+
+def connect_mqtt():
+    print("\nConnecting to MQTT broker...")
+    client.connect(broker, port, 60)
+    print("Connected to broker successfully!\n")
+
+def publish_data():
+    temperature = 25
+    humidity = 60
+    vibration = 1   # Custom third sensor
+
+    payload = {
+        "student_name": student_name,
+        "unique_id": unique_id,
+        "temperature": temperature,
+        "humidity": humidity,
+        "vibration": vibration
+    }
+
+    message = json.dumps(payload)
+
+    print(f"Publishing to '{topic}': {message}")
+    client.publish(topic, message)
+
+def start_publishing():
+    while True:
+        publish_data()
+        time.sleep(3)
+
+if __name__ == "__main__":
+    connect_mqtt()
+    start_publishing()

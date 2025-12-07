@@ -1,0 +1,7 @@
+1712345678: mosquitto version 2.x starting
+1712345678: Using default config.
+1712345678: Opening ipv4 listen socket on port 1883.
+1712345678: Opening ipv6 listen socket on port 1883.
+1712345680: New connection from 127.0.0.1:55632
+1712345680: Client auto-1234-5678 connected.
+1712345683: Received PUBLISH from auto-1234-5678 (d0, q0, r0, m0, 'home/khavin-2025/sensor', ... )
