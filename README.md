@@ -1,10 +1,10 @@
 - 👋 Hi, I’m @KHAVIN2005
 - 👀 I’m interested in Coding
-- 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on developing python
+- 🌱 I’m currently learning Java,SQL
+- 💞️ I’m looking to collaborate on developing Java
 - 📫 How to reach me @KHAVIN2005
 - 😄 Pronouns: Khavin
-- ⚡ Fun fact:  Monty Python circus
+- ⚡ Fun fact:  Coffee + Java = perfect combo ☕
 
 <!---
 KHAVIN2005/KHAVIN2005 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
